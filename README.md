@@ -16,3 +16,16 @@ The program should do error handling on the input values and require the Player 
 R, P, S or Q (for quit). The program should accept both upper and lower case letters. The
 program output should look like the example output in the last section, including spacing and 
 error handling.
+
+## Other Requirements
+1. The program must use at least three functions, excluding the flushScanffunction 
+provided below, with appropriate parameters and return values in addition tomain.
+You may create and use as many functions as you wish.
+2. Make sure that your project is organized with function declarations, then the main 
+function, then the other functions.
+3. You must not use global variables.
+4. The program must use at least one while or for loop.
+5. The program must use at least one switch statement.
+6. The program must use at least one if...else if...elsemulti-way statement.
+7. The program must randomly choose the computer’s choice or R, P, orS.
+8. Avoid the use of hard coded numbers. Use constants instead.
