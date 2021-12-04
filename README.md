@@ -1,4 +1,4 @@
-# COP_2220 Rock/Paper/Sciessors
+# COP_2220 Rock/Paper/Scissors
 
 A program that implements a Rock/Paper/Scissors game that allows the user to play the 
 computer. The program should prompt the user to enter R, P,or S for Rock, Paper, or Scissors, 
