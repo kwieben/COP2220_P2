@@ -1,5 +1,7 @@
 # COP_2220 Rock/Paper/Scissors
 
+### Please excuse the mess as this is only my second attempt at coding in the C language.
+
 A program that implements a Rock/Paper/Scissors game that allows the user to play the 
 computer. The program should prompt the user to enter R, P,or S for Rock, Paper, or Scissors, 
 then it should randomly generate the computer’s choice and determine who won and display 
