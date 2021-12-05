@@ -203,7 +203,7 @@ char get_user_input(){
  */
 int generate_computer_choice(int _range)
 {
-	return rand() % _range;
+    return rand() % _range;
 }
 
 /*
@@ -217,7 +217,7 @@ int generate_computer_choice(int _range)
  */
 void flush_scanf(void)
 {
-	char c;
-	while((c = getchar()) != '\n' && c != EOF)
-  return;
+    char c;
+    while((c = getchar()) != '\n' && c != EOF)
+    return;
 }
