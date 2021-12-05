@@ -63,7 +63,7 @@ int main(void) {
     gamePieces[ONE][ZERO], 
     gamePieces[TWO][ZERO]);
 
-  // play the game while user choice isn't less than array index[ZERO]
+  // play the game while user choice does not equal QUIT
   while((userPiece = user_choice()) != QUIT){
     computerPiece 
       = generate_computer_choice(THREE); // generate computer choice
@@ -158,9 +158,9 @@ bool did_player_win(int _userMove, int _computerMove)
 int user_choice()
 {
   enum MOVES{ROCK, PAPER, SCISSORS, QUIT}; // local constants
-  do // only exit if vaild choice
+  do // only exit if valid choice
   {
-    switch(toupper(get_user_input())) // vaildate user input
+    switch(toupper(get_user_input())) // validate user input
     {
       case 'R':
         return ROCK;
