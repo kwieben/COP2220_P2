@@ -33,7 +33,7 @@ char get_user_input(void);          // capture user move
 int main(void) {
   enum NUMBERS {ZERO, ONE, TWO, THREE}; // Constants
   enum OUTCOMES {WINS, LOSSES, TIES, QUIT};
-  int arry[5] = {1,2,3,4,5};
+
   // computer, user, score variables
   int userPiece, 
       computerPiece, 
